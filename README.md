@@ -19,5 +19,5 @@ to group the results.
 
 ## Demo
 
-- [Computer Science]()
-- [Statistics]()
+- [Computer Science](https://www.alanshawn.com/pavilion/2020/01/15/gradcafe-cs.html)
+- [Statistics](https://www.alanshawn.com/pavilion/2020/01/15/gradcafe-stat.html)
