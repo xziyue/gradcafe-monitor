@@ -1,0 +1,430 @@
+    <link rel="alternate" type="application/rss+xml" title="RSS feed for this page" href="rss.php?q=computer%2520science&amp;t=a" />
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+            <title>computer%20science &bull; thegradcafe.com</title>    
+        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+            <meta name="keywords" content="computer%20science, graduate school, admissions, admission statistics, grad school admissions, college, phd, mba, ms">
+        <link rel="stylesheet" href="https://www.thegradcafe.com/assets/css/vendor.min.css">
+    <link rel="stylesheet" href="https://www.thegradcafe.com/assets/css/main.min.css">
+				<script>
+			function reloadMe() {
+				window.location.reload();
+			}
+			function getInterval(){
+				var lowerBound = 420;
+				var upperBound = 840;
+				
+				var randNum = Math.floor((upperBound-lowerBound+1)*Math.random()+lowerBound) * 1000;
+				return randNum;
+			}
+			var interval = getInterval();
+			var srcInterval = setInterval("reloadMe()",interval);
+			</script>
+		
+    
+    <!-- for search_result -->
+    		 						<link rel="canonical" href="https://www.thegradcafe.com/survey/index.php" />
+		
+            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="//d31vxm9ubutrmw.cloudfront.net/static/js/1460.js"></script>
+    <link rel="stylesheet" href="https://www.thegradcafe.com/assets/css/new.css" type="text/css" />
+        <script type="text/javascript" src="https://www.thegradcafe.com/assets/js/mystuff.js"></script>
+        <script type="text/javascript" src="https://www.thegradcafe.com/assets/js/submit.js"></script>
+        <script>
+        $(document).on("mobileinit", function () {
+            $.mobile.ajaxEnabled = false;
+        });
+        </script>
+        <script>window.twttr = (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+          if (d.getElementById(id)) return t;
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "//platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+
+          t._e = [];
+          t.ready = function(f) {
+            t._e.push(f);
+          };
+
+          return t;
+        }(document, "script", "twitter-wjs"));
+        </script>
+
+    
+        <!-- end for search_result -->
+    
+    
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+    <script type="text/javascript">
+        window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"https://www.thegradcafe.com/TermsofService.php","theme":"dark-top"};
+    </script>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '310961065725289');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="//www.facebook.com/tr?id=310961065725289&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+    <!--BEGIN FIRSTIMPRESSION TAG - thegradcafe.com -->
+<script data-cfasync='false' type='text/javascript'>
+    ;(function(o) {
+        var w=window.top,a='apdAdmin',ft=w.document.getElementsByTagName('head')[0],
+        l=w.location.href,d=w.document;w.apd_options=o;
+        if(l.indexOf('disable_fi')!=-1) { console.error("disable_fi has been detected in URL. FI functionality is disabled for this page view."); return; }
+        var fiab=d.createElement('script'); fiab.type = 'text/javascript';
+        fiab.src=o.scheme+'ecdn.analysis.fi/static/js/fab.js';fiab.id='fi-'+o.websiteId;
+        ft.appendChild(fiab, ft); if(l.indexOf(a)!=-1) w.localStorage[a]=1; 
+        var aM = w.localStorage[a]==1, fi=d.createElement('script'); 
+        fi.type='text/javascript'; fi.async=true; if(aM) fi['data-cfasync']='false';
+        fi.src=o.scheme+(aM?'cdn':'ecdn') + '.firstimpression.io/' + (aM ? 'fi.js?id='+o.websiteId : 'fi_client.js');
+        ft.appendChild(fi);
+    })({ 
+        'websiteId': 7349, 
+        'scheme':    '//'
+    });
+</script>
+<!-- END FIRSTIMPRESSION TAG -->
+<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-2584404-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
+</head>
+
+<body>
+	
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+
+<header>
+    <div class="container">
+        <h1 class="logo"><a href="https://www.thegradcafe.com/">
+                <img src="../assets/images/thegradcafe_logo.png" alt="TheGradCafe.com logo">
+                </a>
+        </h1>
+        <div class="head-r">
+            <ul class="social-icons">
+                <li class="fb">
+                    <a target="_blank" href="https://www.facebook.com/thegradcafe/"></a>
+                </li>
+                <li class="twitter">
+                    <a target="_blank" href="https://twitter.com/thegradcafe?lang=en"></a>
+                </li>
+            </ul>
+            <div class="menu"><span></span><span></span><span></span></div>
+            <nav class="nav">
+                <ul>
+                                            <li class="">
+                            <a href="https://www.thegradcafe.com">
+                                Home                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="https://www.thegradcafe.com/survey/post.php">
+                                Submit your results                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="https://forum.thegradcafe.com">
+                                Forum                            </a>
+                        </li>
+                                            <li class="">
+                            <a href="https://forum.thegradcafe.com/blogs/">
+                                User Blogs                            </a>
+                        </li>
+                                            <li class="active">
+                            <a href="https://www.thegradcafe.com/survey/index.php">
+                                Results Search                            </a>
+                        </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- Header ends --><style>
+    .controlspam  a{
+        color: red;
+        font-weight: bold;
+    }
+    .dAccepted {
+        background-color:#00cc00;
+    }
+
+    .dRejected {
+        background-color:#dd7777;
+    }
+    select{
+        border: 1px solid #d6dde3;
+        background-color: #f6f9fc;
+    }
+    .pagination{
+        padding: 8px;
+        border: 1px solid #d6dde3;
+        text-align: center;
+    }
+
+    .ad_cls{
+        margin-bottom: 0px !important;
+        /*margin-top: 0px !important;*/
+        display: inherit;
+        margin: 0 auto;
+    }
+    div.minihad{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1ex;
+        margin-top: 0.4ex;
+    }
+</style>
+    <main class="container">
+        <div id="fb-root"></div>
+
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '1509502309303609',
+              xfbml      : true,
+              version    : 'v2.5'
+            });
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <div class="ad_cls" >
+    <div class="minihad">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- TGC - Results Top -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8625616776911349"
+     data-ad-slot="5395457838"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+</div>
+		
+        <section>
+            <div>
+	            <h1>Computer%20science Graduate School Admission Results</h1><p>Your query for Computer%20science produced 55,738 results. Don't forget to use our sort and time filters to refine the results.</p>			            
+	            
+                <p><strong>Got comments?</strong> Please let us know what you think on the <a href="https://forum.thegradcafe.com/forum/13-comments-questions-etc/">Forum</a> or <a href="/contact_us.php">Email Us</a>.</p>
+            </div>
+        </section>
+
+        <form action="https://www.thegradcafe.com/survey/index.php" method="GET">
+            <section>
+
+
+                <h2 class="title">
+                    Search computer%20science grad school admission results                </h2>
+                
+                                        <div class="admission-search">
+                        <input type="text" class="input" name="q" placeholder="Enter your admissions-related search"
+                        value="computer%20science">
+                        <button type="submit" class="btn btn-large">Results Search</button>
+                    </div>    
+                                        <div class="admission-search">
+                        <h3>Over</h3>
+                        <select class="input" name="t" onchange="this.form.submit();">
+                                                        <option value="n"  
+                             >today only</option>
+                                                        <option value="t"  
+                             >past two days</option>
+                                                        <option value="w"  
+                             >past week</option>
+                                                        <option value="m"  
+                             >past month</option>
+                                                        <option value="a"  
+                             selected="selected" >all time</option>
+                                                    </select>
+                    </div>
+                    
+                    
+
+                            </section>
+            <p>&nbsp;</p>
+            
+            <div class="ad_cls" >
+    <div class="minihad">
+        <!-- Middle Placement -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- TGC - Results Middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8625616776911349"
+     data-ad-slot="6613988976"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        <!-- Middle Placement -->
+    </div>
+</div>
+    
+            <!-- Pagination code -->
+                            <div class="box">
+                    <div class="admission-search pagination" style="width: 100%;">
+                        Showing <strong>55738 results</strong> over 2230 pages [  1 <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=2">2</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=3">3</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=4">4</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=5">5</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=6">6</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=7">7</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=8">8</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=9">9</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=10">10</a> ... ]                         <input type="hidden" name="o" value="">
+                                                at <select name="pp" onchange="this.form.submit();">
+                            <option value="10">10</option><option value="25" selected="selected">25</option><option value="50">50</option><option value="100">100</option><option value="250">250</option>                        </select> per page
+                                            </div>
+                </div>
+            
+            <!-- Pagination code -->
+        </form>
+
+        <section class="submissions">
+            
+                
+
+
+            <div class="table-wrap">
+
+                                            <div class="tip">You can <strong>sort results</strong> by clicking on a column heading below. </div> <br>
+                                        
+                    <table class="submission-table">
+                		<thead>
+                			<tr>
+                				<th class="tcol1">
+                                    <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=i">Institution</a>                                </th>
+                				<th class="tcol2">
+                                    <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=p">Program</a>                                     (Season)
+                                </th>
+                				<th class="tcol3" >Decision & 
+                                    <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=d">Date</a>                                </th>
+                				<th class="tcol4">St<sup>1</sup></th>
+                				<th class="tcol5">Date Added</th>
+                				<th class="tcol6">Notes</th>
+                			</tr>
+                		</thead>
+                        <tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679265);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 rejected"><strong>Rejected</strong> via E-mail on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 9.24<br/><strong>GRE General (V/Q/W)</strong>: 160/167/4.50<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li></li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679256);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 accepted"><strong>Accepted</strong> via E-mail on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 3.80<br/><strong>GRE General (V/Q/W)</strong>: 161/167/4.50<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>Pretty excited! It has always been my dream to attend an Ivy League. 2 years relevant work ex in an MNC, BTech from a second tier private college in India.</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679227);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 other">Other via Other on 15 Jan 2020 </td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>To the poster who got accepted into upenn, can you post your profile?</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679214);"><td class="instcol tcol1">University Of Illinois At Urbana–Champaign</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 24 Dec 2019 </td><td class="tcol4">U</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li></li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679209);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 rejected"><strong>Rejected</strong> via E-mail on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 9.20<br/><strong>GRE General (V/Q/W)</strong>: 170/162/4.00<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>CV, NLP Profile, 2nd authored publications in WACV, NAACL.</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679200);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 rejected"><strong>Rejected</strong> via Website on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 3.86<br/><strong>GRE General (V/Q/W)</strong>: 158/166/5.00<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li></li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679198);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 accepted"><strong>Accepted</strong> via E-mail on 15 Jan 2020 </td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li></li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679194);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 rejected"><strong>Rejected</strong> via Website on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 8.80<br/><strong>GRE General (V/Q/W)</strong>: 156/164/3.00<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li></li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679185);"><td class="instcol tcol1">University Of Pennsylvania</td><td class="tcol2">Computer Science, Masters (F20)</td><td class="tcol3 rejected"><strong>Rejected</strong> via Website on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 3.94<br/><strong>GRE General (V/Q/W)</strong>: 155/167/3.50<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>First reject of the season</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679182);"><td class="instcol tcol1">Massachusetts Institute Of Technology (MIT)</td><td class="tcol2">Electrical And Computer Engineering, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 3.88<br/><strong>GRE General (V/Q/W)</strong>: 162/167/5.00<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">A</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>Generic email, invited for a SKYPE with poi.</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679176);"><td class="instcol tcol1">Cornell University</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 13 Jan 2020 </td><td class="tcol4">U</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>Area: AI/ML. Interview request from POI.</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679158);"><td class="instcol tcol1">Yale Graduate School Of Arts And Sciences</td><td class="tcol2">Electrical And Computer Engineering, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 15 Jan 2020 </td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>fingers crossed</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679149);"><td class="instcol tcol1">University Of Virginia</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 6 Jan 2020 </td><td class="tcol4">U</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>email from my favorite poi
+interviewed on Jan.10th
+it seems like the committee just start recently
+Good Luck!!!!!</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679142);"><td class="instcol tcol1">University Of Virginia</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 15 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 3.58<br/><strong>GRE General (V/Q/W)</strong>: 158/166/5.00<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">I</td><td class="datecol tcol5">15 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>Mailed by POI for a Skype Interview. My field of interest is HCI.</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679120);"><td class="instcol tcol1">New York University</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 other">Other via Other on 15 Jan 2020 </td><td class="tcol4">O</td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>Has anyone heard back from the NYU-Courant NLP group regarding interviews yet?</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679115);"><td class="instcol tcol1">University Of Florida</td><td class="tcol2">Electrical And Computer Engineering, PhD (F20)</td><td class="tcol3 other">Other via POST on 15 Jan 2020 </td><td class="tcol4"></td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>To poster with acceptance- and what was your research domain, also do they provide funding ?</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679110);"><td class="instcol tcol1">University Of Florida</td><td class="tcol2">Electrical And Computer Engineering, PhD (F20)</td><td class="tcol3 other">Other via POST on 15 Jan 2020 </td><td class="tcol4">A</td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>Profile: undergraduate in electrical engineering, 4.0/4.0 GPA, avg Verbal GRE, good Quantitative, 5.5AWA; summer research REU at UC Berkeley, no publications but a year of research experience; heavily involved on campus and hold multiple leadership positions in organizations</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679102);"><td class="instcol tcol1">University Of Florida</td><td class="tcol2">Electrical And Computer Engineering, PhD (F20)</td><td class="tcol3 other">Other via POST on 15 Jan 2020 </td><td class="tcol4"></td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>The poster accepted below can you comment on your profile. Also The poster who got interview call what is the research domain?</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679064);"><td class="instcol tcol1">University Of California, Irvine</td><td class="tcol2">Computer Science, PhD (F19)</td><td class="tcol3 interview">Interview via E-mail on 15 Jan 2020 </td><td class="tcol4">I</td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>had one official interview from POI, security</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679041);"><td class="instcol tcol1">Columbia University</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 7 Jan 2020 </td><td class="tcol4"></td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>A POI not on my list interviewed me. My current interests are in CV/ML (3 CV top conference papers, 1 AAAI paper).</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679032);"><td class="instcol tcol1">University Of Florida</td><td class="tcol2">Electrical And Computer Engineering, PhD (F20)</td><td class="tcol3 accepted"><strong>Accepted</strong> via E-mail on 10 Jan 2020 </td><td class="tcol4">A</td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li></li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,679021);"><td class="instcol tcol1">Stanford University</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 other">Other via Other on 14 Jan 2020 </td><td class="tcol4"></td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>Has anyone heard about when they will interview CS Ph.D. applicants? Thanks!</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,678984);"><td class="instcol tcol1">University Of Texas At Austin</td><td class="tcol2">Computer Science, PhD (F20)</td><td class="tcol3 other">Other via Other on 14 Jan 2020 </td><td class="tcol4"></td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>To the poster below: what does your "MyStatus" say the current status of your application is?</li></ul></td></tr>
+<tr class="row1" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,678878);"><td class="instcol tcol1">University Of Toronto</td><td class="tcol2">MScAC (Applied Computing, Computer Science), Masters (F20)</td><td class="tcol3 accepted"><strong>Accepted</strong> via E-mail on 14 Jan 2020 </td><td class="tcol4">I</td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>CS Applicants to UofT (MSc, MScAC, PhD): t.me/joinchat/FpnoORO3J23F-TNt52n1kw
+MScAC Fall 2020 Admits join this group: t.me/joinchat/FpnoORQerBStdrPgC6u-fQ</li></ul></td></tr>
+<tr class="row0" onMouseOut="hideControlsBox(this);" onMouseOver="showControlsBox(this,678862);"><td class="instcol tcol1">University Of Florida</td><td class="tcol2">Electrical And Computer Engineering, PhD (F20)</td><td class="tcol3 interview">Interview via E-mail on 14 Jan 2020 <a class="extinfo" href="#"><span><strong>Undergrad GPA</strong>: 3.96<br/><strong>GRE General (V/Q/W)</strong>: 157/165/4.00<br/><strong>GRE Subject</strong>: n/a<br/></span>&diams;</a></td><td class="tcol4">U</td><td class="datecol tcol5">14 Jan 2020</td><td class="tcol6"><ul class="control"><li class="controlspam"></li><li>POI contacted me for an interview</li></ul></td></tr>
+                	</table>
+                    <p class="status">Status<sup>1</sup> <strong>Key:</strong> A: American; U: International, with US degree; I: International, without US degree; O: Other; ?: Unknown.</p>
+                    <!-- Pagination code -->
+                                            <div class="admission-search pagination" style="width: 100%;">
+                            Showing <strong>55738 results</strong> over 2230 pages [  1 <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=2">2</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=3">3</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=4">4</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=5">5</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=6">6</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=7">7</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=8">8</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=9">9</a> <a href="/survey/index.php?q=computer%2520science&amp;t=a&amp;o=&amp;p=10">10</a> ... ]                         </div>
+                    
+                    <!-- Pagination code -->
+
+					<div align="center"><a href="/contact_us.php"><font color="red">Report a Problem</font></a></div>
+
+                                </div>
+        </section>
+        
+    </main>
+    <!-- Content ends -->
+<div align="center">
+    <div>
+        <!-- code from sekindo - Thegradcafe.com - Thegradcafe.com NVU -->
+
+		<script type="text/javascript" language="javascript" src="https://live.sekindo.com/live/liveView.php?s=96872&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC%%&x=500&y=347&vp_content=plembedde0xzurhljyk&vp_template=3840"></script>
+		
+		<!-- code from sekindo -->
+    </div>
+</div>		
+<p>&nbsp;</p>
+		<footer class="container">
+		    <ul class="footer-links">
+		        <li><a href="https://www.thegradcafe.com">Home</a></li>
+		        <li><a href="https://www.thegradcafe.com/contact_us.php">Contact Us</a></li>
+		        <li><a href="https://www.thegradcafe.com/TermsofService.php">Terms of Service</a></li>
+		        <li><a href="https://www.thegradcafe.com/survey/index.php"">Results Search</a></li>
+		        <li><a href="https://www.thegradcafe.com/survey/post.php"">Submit Results</a></li>
+		        <li><a target="_blank" href="https://forum.thegradcafe.com">Forum</a></li>
+		        <!-- <li><a href="https://www.thegradcafe.com/about_us.php">About</a></li> -->
+		    </ul>
+		    <div align="center">
+		    	<p>Copyright &copy; 2020 TheGradCafe.com All rights reserved.</p>
+		    </div>
+		    <p>&nbsp;</p>
+		</footer>
+		    
+		<!-- Footer ends -->
+				<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+				<script src="https://www.thegradcafe.com/assets/js/main.js"></script>
+	
+		<script>
+	   if(document.body.clientWidth <= 768) {
+	        document.write('<div id="waldo-tag-1519"></div>');
+	   }
+	</script>
+	
+	</body>
+
+</html>
