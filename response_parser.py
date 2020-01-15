@@ -3,10 +3,6 @@ import re
 from datetime import datetime
 import numpy as np
 
-with open('sample_response.txt', 'rb') as infile:
-    response = infile.read()
-
-
 class StringToken:
 
     def __init__(self, string):

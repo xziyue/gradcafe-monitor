@@ -59,7 +59,7 @@ def print_decision(name):
 def print_info_1(lst):
     lst.sort(key = lambda x : x['date'], reverse=True)
     d = lst[0]['decision'].get_string()
-    result = f'<p><b>{d}</b></p>\n<ul>\n'
+    result = f'<p><b>{d} ({len(lst)})</b></p>\n<ul>\n'
     for item in lst:
         line = '<li>'
         line += np_time_to_string(item['date']) + ' via ' + item['channel'].get_string()
@@ -72,10 +72,22 @@ def print_info_1(lst):
 
 
 def print_info_2(lst):
-    lst.sort(key=lambda x: x['date'], reverse=True)
+    lst.sort(key=lambda x: (x['date'], x['institution'].get_token()), reverse=True)
+
+    result = '<ul>\n'
+    for item in lst:
+        line = '<li>'
+        line += item['institution'].get_string() + ', ' + np_time_to_string(item['date']) + ' via ' + item['channel'].get_string()
+        if len(item['note']) > 0:
+            line += ' ' + '({})'.format(escape(item['note']))
+        line += '</li>\n'
+        result += line
+    result += '</ul>\n'
+
+    return result
 
 
-decisionList = ['accepted', 'rejected', 'interview', 'other']
+decisionList = ['accepted', 'rejected', 'interview', 'wait listed', 'other']
 
 def generate_institution_overview(degree):
     result = ''
@@ -83,10 +95,10 @@ def generate_institution_overview(degree):
     for uni in allUniversities:
         items = search_by(allResponse, 'institution', uni, 'degree', degree)
         if len(items) > 0:
-            result += '<div style="margin-top: 10px; margin-bottom: 10px;"><details>\n'
+            result += '<div style="margin-top: 3px; margin-bottom: 3px;"><details>\n'
             grouped = group_by(items, 'decision')
             counter = [len(grouped.get(d, [])) for d in decisionList]
-            uniName = items[0]['institution'].get_string() + ' (A: {}, R: {}, I: {}, O: {})'.format(*counter)
+            uniName = items[0]['institution'].get_string() + ' (A: {}, R: {}, I: {}, W: {}, O: {})'.format(*counter)
             result += '<summary>' + print_university(uniName) + '</summary>\n'
             for d in decisionList:
                 if d in grouped:
@@ -99,16 +111,30 @@ def generate_institution_overview(degree):
 
 def generate_decision_overview(degree):
     result = ''
-
-    grouped = group_by(allResponse, 'decision')
+    searched = search_by(allResponse, 'degree', degree)
+    grouped = group_by(searched, 'decision')
     for d in decisionList:
         if d in grouped:
             result += '<div><details>\n'
-            result += '<summary>' + print_decision(grouped[d][0]['decision'].to_string()) + '</summary>\n'
+            result += '<summary>' + print_decision('{} ({})'.format(grouped[d][0]['decision'].get_string(), len(grouped[d])))
+            result += '</summary>\n'
             result += print_info_2(grouped[d])
             result += '</details></div>'
 
-    print(result)
     return result
 
-generate_decision_overview('masters')
+if __name__ == '__main__':
+
+    markdown = ''
+    degrees = ['PhD', 'Masters']
+
+    for degree in degrees:
+        degreeToken = degree.lower()
+        markdown += f'## {degree}\n\n'
+        markdown += '### Institution Activities\n\n'
+        markdown += generate_institution_overview(degreeToken) + '\n\n'
+        markdown += '### Chronological Order\n\n'
+        markdown += generate_decision_overview(degreeToken) + '\n\n'
+
+    with open('output.md', 'w') as outfile:
+        outfile.write(markdown)

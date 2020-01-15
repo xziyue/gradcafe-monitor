@@ -1,8 +1,9 @@
 from response_parser import StringToken
 
+# works on names after standardization
 institutionAlias = [
     [
-        'University Of Illinois At Urbana Champaign',
+        'University Of Illinois At Urbana Champaign', # the first item is display name
         'University Of Illinois Urbana Champagne',
         'University Of Illinois Urbana Champaign',
         'UIUC'

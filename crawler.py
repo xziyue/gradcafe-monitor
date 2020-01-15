@@ -18,43 +18,51 @@ hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML,
        'Connection': 'keep-alive'}
 
 
-_subject = quote(subject)
-_startDate = np.datetime64(startDate)
+def crawl_data(subject, startDate):
+    print('crawling data from gradcafe...')
+    _subject = quote(subject)
+    _startDate = np.datetime64(startDate)
 
-manager = urllib3.PoolManager()
+    manager = urllib3.PoolManager()
 
-# start crawling data
-page = 1
-allResponse = []
-exitSignal = False
+    # start crawling data
+    page = 1
+    allResponse = []
+    exitSignal = False
 
-while not exitSignal:
-    print(f'fetching page {page}')
+    while not exitSignal:
+        print(f'fetching page {page}')
 
-    # send a GET request
-    r = manager.request('GET', 'https://www.thegradcafe.com/survey/index.php',
-                    fields={'q' : _subject, 't' : 'a', 'o' : '', 'p' : repr(page)})
-    if r.status != 200:
-        raise RuntimeError(f'unable to fetch page {page} (HTTP response {r.status})')
+        # send a GET request
+        r = manager.request('GET', 'https://www.thegradcafe.com/survey/index.php',
+                        fields={'q' : _subject, 't' : 'a', 'o' : '', 'p' : repr(page)})
+        if r.status != 200:
+            raise RuntimeError(f'unable to fetch page {page} (HTTP response {r.status})')
 
-    response = parse_response(r.data)
+        response = parse_response(r.data)
 
-    # sort the results by date
-    response.sort(key = lambda x : x['date'], reverse=True)
+        # sort the results by date
+        response.sort(key = lambda x : x['date'], reverse=True)
 
-    if response[-1]['date'] < _startDate:
-        exitSignal = True
-        # filter out unwanted results
-        validResponse = list(filter(lambda x : x['date'] >= _startDate, response))
-        allResponse.extend(validResponse)
-        continue
+        if response[-1]['date'] < _startDate:
+            exitSignal = True
+            # filter out unwanted results
+            validResponse = list(filter(lambda x : x['date'] >= _startDate, response))
+            allResponse.extend(validResponse)
+            continue
 
-    allResponse.extend(response)
+        allResponse.extend(response)
 
-    # add a bit of interval between requests
-    time.sleep(0.05)
-    page += 1
+        # add a bit of interval between requests
+        time.sleep(0.05)
+        page += 1
 
-# save all response to file
-with open('all_response.pickle', 'wb') as outfile:
-    pickle.dump(allResponse, outfile)
+    print('fetched {} records from gradcafe'.format(len(allResponse)))
+
+    # save all response to file
+    with open('all_response.pickle', 'wb') as outfile:
+        pickle.dump(allResponse, outfile)
+
+
+if __name__ == '__main__':
+    crawl_data(subject, startDate)
