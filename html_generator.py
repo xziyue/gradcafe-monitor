@@ -53,7 +53,10 @@ def np_time_to_string(npTime):
 def print_university(name):
     return '<span style="font-size: large; font-weight: bold;">' + name + '</span>'
 
-def print_decision_info(lst):
+def print_decision(name):
+    return '<span style="font-weight: bold;">' + name + '</span>'
+
+def print_info_1(lst):
     lst.sort(key = lambda x : x['date'], reverse=True)
     d = lst[0]['decision'].get_string()
     result = f'<p><b>{d}</b></p>\n<ul>\n'
@@ -66,6 +69,10 @@ def print_decision_info(lst):
         result += line
     result += '</ul>\n'
     return result
+
+
+def print_info_2(lst):
+    lst.sort(key=lambda x: x['date'], reverse=True)
 
 
 decisionList = ['accepted', 'rejected', 'interview', 'other']
@@ -83,11 +90,25 @@ def generate_institution_overview(degree):
             result += '<summary>' + print_university(uniName) + '</summary>\n'
             for d in decisionList:
                 if d in grouped:
-                    result += print_decision_info(grouped[d])
+                    result += print_info_1(grouped[d])
 
             result += '</details></div>\n'
 
+    return result
+
+
+def generate_decision_overview(degree):
+    result = ''
+
+    grouped = group_by(allResponse, 'decision')
+    for d in decisionList:
+        if d in grouped:
+            result += '<div><details>\n'
+            result += '<summary>' + print_decision(grouped[d][0]['decision'].to_string()) + '</summary>\n'
+            result += print_info_2(grouped[d])
+            result += '</details></div>'
+
     print(result)
+    return result
 
-
-generate_institution_overview('masters')
+generate_decision_overview('masters')
